@@ -1,0 +1,428 @@
+/* *-----------UPDATED COLOR PALETTE-------------* */
+
+
+/* #131314 - deep dark grey (almost black)
+#F8F9FA - very light grey (almost white)
+#BBC2CC - silver grey (added more options in code)
+#CCC5BB - complmmentary to the sliver grey */
+
+
+
+/* *-----------Resume page's Global Styles-------------* */
+
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* *-----------Resume page's landing page ( body className .site )-------------* */
+
+
+body {
+  /* background-color: teal; */
+  /* background-color: black; */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* **------resumeHero is the div that holds hero, resumeTitle and resumeSubtitle-----** */
+/* *-----------"Scott Patrick Dancer" ( div className .resumeTitle )----------* */
+
+
+.resumeTitle {
+  font-size: 9rem;
+
+   /* ---------- silver color options ----------------- */
+  /* color: #877D74; */
+  /* color: #BBC2CC; */
+  /* color: #A8A9AD; */
+  color: #877D74;
+
+  /* background-color: springgreen;
+  z-index: 4; */
+
+  font-family: 'Tangerine', cursive;
+  margin: 0;
+}
+
+
+
+/* *----------"Dreamers are the..." ( div className .resumeSubtitle )--------* */
+
+
+.resumeSubtitle {
+  font-family: 'Tangerine', cursive;
+
+
+  /* ---------- silver color options ----------------- */
+   /* color: #877D74; */
+  /* color: #BBC2CC; */
+  /* color: #A8A9AD; */
+  color: #877D74;
+
+
+  /* background-color: palevioletred;
+  z-index: 4; */
+
+
+  font-size: 30px;
+  font-weight: 600;
+   margin: 0;
+
+}
+
+
+
+/* *----------Rainbow Laptop Image ( div className .hero )--------* */
+
+
+.hero {
+
+ 
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: auto 100%;
+    width: 100vw;
+    height: auto;
+
+
+  /* -----I don't believe I need this until I decide to play around with a cool transition for this resume page---------------- */ 
+  
+  /* transition: .5s; */
+
+}
+
+
+
+
+
+/* **-----This Next Section is className .summary this includes .profilePic, .summaryText, .contactInfo-------** */
+/* **--------------whole summary area ( section className .summary )------------** */
+
+
+
+.summary {
+  /* background-color: blue; */
+  color:  #F8F9FA;
+  background-color: #131314
+}
+
+
+
+/* **--------"Graphic & Web Designer..." ( h2 className .heading .headingSummary )--------** */
+
+
+.heading, .headingSummary {
+  color:#877D74;
+  font-size: 2.22rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
+
+}
+
+
+
+/* **--------------Portfolio Headshot ( img className .profilePic )------------------------** */
+
+
+.profilePic {
+  width: 150px;
+  height: 185px;
+  border-radius: 100%;
+  filter: grayscale(77%);
+
+  /* ---------- silver color options ----------------- */
+  /* border: 3px solid #877D74; */
+  /* border: 3px solid #BBC2CC; */
+  border: 3px solid #877D74;
+
+}
+
+
+
+
+/* **-------"Full Stack Web..." ( div className .summaryText )--------** */
+
+
+.summaryTextTwo {
+ text-align: left;
+}
+
+
+
+
+
+
+
+/* **-----------Contact Information & Links (div className .contactInfo )--------------** */
+
+
+
+
+
+
+
+
+
+/* **-----------shiny red pdf logo ( img className .pdfLogo )--------------** */
+
+
+.pdfLogo {
+  margin-bottom: 25px;
+  width: 30px;
+  border-radius: 25%;
+  border: .5px solid hsl(219, 37.2%, 94.1%);
+  padding-top: 0; 
+}
+
+          {/* <!-- ********************  PROJECTS / PORTFOLIO  ********************* --> */}
+
+
+          h2 {
+            color:#877D74;
+            font-size: 2.22rem;
+            text-align: center;
+            margin-bottom: 0;
+            font-weight: 500;
+            padding-top: 2%;
+            padding-bottom: 2%;
+          }
+
+          .projectWrap p {
+            /* color:lightblue; */
+        
+          }
+
+
+                 {/* <!-- ********************  WORK EXPERIENCE  ********************* --> */}
+          
+          .workExperience {
+            color:  #F8F9FA;
+            background-color: #131314;
+          }
+
+          .workExperience p{
+            padding-bottom: 10px;
+          }
+          
+          .keyContributions {
+            font-weight: 500;
+          }
+          
+          .jobItem {
+            font-weight: 300;
+            display: grid;
+            grid-column: 2 /4 ;
+            grid-template-columns: 1fr 2fr;
+            column-gap: 20px;
+            border-bottom: 1px solid #877D74;
+          }
+          
+          .workExperience h2 {
+            padding-top: 4%;
+            padding-bottom: 2%;
+          
+          }
+          
+          .workExperience ul {
+            list-style-type: square;
+          }
+          
+          .contentWrap {
+            padding-bottom: 50px;
+          }
+          
+          .lastEntry {
+            border-bottom: hidden;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {/* <!-- ***********************  WORK EXPERIENCE  *********************** --> */}
+
+
+
+
+
+
+/* **---This Next section is className .education this includes .education .educationContent .educationBackground .educationLogos-------** */
+/* **----------whole education section ( section className .education )-----------** */
+
+
+.education {
+  color:  #131314;
+  /* background-color: #131314; */
+}
+
+.educationDetails h2{
+  color:#877D74;
+  font-size: 2.22rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  /* z-index: 2; */
+
+  /* text-align: center; */
+}
+
+h3 + p {
+  font-style: italic;
+  font-weight: 500;
+}
+
+h3 ~ p {
+  margin: 0;
+}
+
+.educationDetails{
+  color:#131314;
+  background-color: hsl(219, 37.2%, 94.1%);
+  background-image: url(images/coloredPencils.jpg);
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: auto;
+  background-size: cover;
+  background-position: center left;
+
+
+}
+
+.educationLogos {
+  border-top: 1px solid #877D74;
+}
+
+.educationLogos img{
+  width: 130px;
+  max-height: 130px;
+}
+
+.uwContent {
+  border-top: hidden;
+}
+
+
+
+
+
+
+
+
+
+/* **-----This Next div is className .volunteer this includes .volunteer-------** */
+/* **----------whole volunteer area ( section className .volunteer )-----------** */
+
+.volunteer {
+  color:  #F8F9FA;
+  background-color: #131314
+}
+
+.volunteer h2{
+  color:#877D74;
+  font-size: 2.22rem;
+  text-align: center;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+
+/* **-----This Next Section is className .footer this includes .footerContent, .footerContactList, .contactLinks-------** */
+/* **--------------whole footer area ( section className .footer )------------** */
+
+.footer {
+  background-color:white;
+  padding: 0;
+  text-align: center;
+
+}
+
+.footer ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+/* **--------------div footer area ( section className .footerContent )------------** */
+
+.footerContent {
+
+}
+
+.footerContent h2{
+  color:#877D74;
+  font-size: 2.22rem;
+  margin-bottom: 0;
+  font-weight: 500;
+
+   /* text-align: center; */
+
+}
+
+/* **--------------ul in footer area ( section className .footerContactList )------------** */
+
+.footerContactList a{
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color:#5A948E;
+  font-size:12px;
+  font-weight: 700;
+  
+}
+
+.footerContactList a:hover{
+  transform: scale(0.5);
+  transition: 0.5s;
+  transform: scale(1.1) translateY(-15px);
+  color: #F7A865;
+
+}
+
+.imgLinkedinLogo, .imgGithubLogo {
+  width: 60px;
+  height: 55px;
+  display: flex;
+
+}
+
+/* **--------------li in footer area ( section className .footerContactLinks )------------** */
+
+.footerContactLinks {
+  
+}
+/* **--------------snippet to test for strange margins )------------** */
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */

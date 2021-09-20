@@ -1,0 +1,672 @@
+/* *-----------Resume page's landing page - ( body className .site )-------------* */
+
+
+body {
+  /* background-color: teal; */
+  /* background-color: black; */
+
+}
+
+
+/* **-----resumeWrapper is the div that holds hero, resumeTitle and resumeSubtitle------** */
+/* **----- whole hero area ( div className .resumeWrapper) ------** */
+
+.resumeWrapper {
+
+  /* border: 15px solid blue; */
+
+  display: grid;
+  /* grid-template-columns:  1fr 2fr 2fr 1fr; */
+  grid-template-columns: 1fr 4fr 1fr;
+  /* grid-template-rows: 1fr 4fr 1fr;  */
+  grid-column-gap: 2.5em;
+
+}
+
+/* *-----------"Scott Patrick Dancer" ( div className .resumeTitle )----------* */
+
+
+
+.resumeTitle {
+  grid-column: 1 / 4;
+  justify-content: center;
+  text-align: center;
+  grid-row: 1 / 2;
+  z-index: 2;
+  padding-top: 5%;
+
+  /* place-self: center center; */
+
+}
+
+
+
+/* **--------"Dreamers are the..." ( div className .resumeSubtitle )-----------** */
+
+.resumeSubtitle {
+  grid-column: 2 / 3;
+  text-align: right;
+  grid-row: 2 / 3;
+  z-index: 2;
+}
+
+
+
+/* **-------Rainbow Laptop Image ( div className .hero )--------------** */
+
+
+.hero {
+  display:grid;
+  grid-column: 1 / 5;
+  grid-row: 1 / 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **-----This Next Section is className .summary this includes .profilePic, .summaryText, .contactInfo-------** */
+/* **-------------whole summary area ( section className .summary )------------** */
+
+
+.summary {
+  /* border-top: 5px solid red; */
+  /* border: 5px solid red; */
+
+
+  display: grid;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
+  grid-gap: 1.5em;
+}
+
+
+
+/* **--------"Graphic & Web Designer..." ( h2 className .heading .headingSummary )--------** */
+
+
+.headingSummary {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2%;
+
+}
+
+
+
+
+
+
+
+/* **-------Portfolio Headshot ( img className .profilePic)------** */
+
+
+.profilePic {
+  grid-column: 1 / 2;
+  grid-row: 1 /4;
+  place-self: center center;
+}
+
+
+/* **-------"Full Stack Web..." ( div className .summaryText )--------** */
+
+
+.summaryText {
+  grid-column: 2 / 4;
+  text-align: justify;
+  
+}
+
+.summaryTextTwo {
+  grid-column: 2 / 4;
+
+  
+}
+
+
+
+
+/* **-------Contact Information & Links ( div className .contactInfo )-----** */
+
+
+
+.contactInfo {
+
+  grid-column: 2 / 4;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 3%; 
+}
+
+.contactInfo ul {
+
+  list-style-type: none;
+
+}
+
+.contactInfo a {
+  /* color: red; */
+  
+  text-decoration: none;
+  color:#877D74;
+  
+}
+
+
+/* **-----------shiny red pdf logo ( img className .pdfLogo )--------------** */
+
+.pdfLogo {
+  grid-column: 4 / 5;
+  grid-row: 3 / 4;
+  place-self: center center;
+  
+}
+
+          {/* <!-- ********************  PROJECTS / PORTFOLIO  ********************* --> */}
+
+
+.projectWrap {
+
+  background-color:  #F8F9FA;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 100px 350px;
+  
+
+}
+
+.projectWrap p {
+  grid-column: 2/4;
+  place-self: center center;
+  font-size: 45px;
+  font-weight: 100;
+  padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+  {/* <!-- ***********************  WORK EXPERIENCE  *********************** --> */}
+
+
+/* .contentWrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+} */
+
+/* h2 {
+  grid-column: 1 /5;
+ 
+
+} */
+
+/* .contentWrap p {
+  grid-column: 2 / 4;
+
+} */
+
+.references {
+ 
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
+
+
+
+ }
+
+
+
+
+/* **---This Next section is className .educationDetails this includes  .educationContent  .educationLogos-------** */
+/* **----------whole education section ( section className .educationDetails )-----------** */
+
+
+
+
+ .educationDetails {
+  /* border: 5px solid green; */
+
+  /* background-color: cornflowerblue; */
+
+
+  display: grid;
+  grid-template-columns:1fr 2fr 2fr 1fr;
+  grid-template-rows: 100px 175px 175px 175px 175px;
+  grid-column:  2 / 4;
+}
+
+
+
+
+
+.educationDetails h2 {
+  grid-column: 1 / 5;
+  place-self: center;
+  padding-top: 2%;
+
+
+  
+}
+
+.educationLogos {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 20px 30px 70px;
+  grid-column: 2 / 4;
+  border-top: 1px solid #CCC5BB;
+  grid-column-gap: 10px;
+  padding-top: 15px;
+
+}
+
+.educationLogos h3 {
+  /* color: rebeccapurple; */
+  grid-column: 2 / 5;
+  place-self: center left; 
+  
+}
+
+.educationLogos p {
+  grid-column: 2 / 5;
+ 
+}
+
+.educationLogos img{
+  /* place-self: center center; */
+  grid-column: 1 / 2;
+}
+
+.uwContent {
+  /* background-color: coral; */
+  /* grid-column: 2 / 4; */
+  border-top: hidden;
+}
+
+.sanContent {
+ 
+  /* background-color: coral; */
+  grid-row: 3 / 4;
+  /* grid-column: 2 / 4;  */
+
+}
+.mfaContent {
+  /* background-color: red; */
+  grid-row: 4/5;
+  /* grid-column: 2 / 5; */
+}
+.harvardExContent{
+  /* background-color: coral; */
+  grid-row: 5/6;
+  /* grid-column: 2 / 5; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **-----This Next div is className .volunteer this includes .volunteer-------** */
+/* **----------whole volunteer area ( section className .volunteer )-----------** */
+
+.volunteer {
+  display: grid;
+  grid-template-rows: 75px 40px 50px 60px;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
+  grid-column-gap: 1.5em;
+
+  /* border: 5px solid red; */
+
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+
+  /* grid-template-columns:  1fr 4fr 1fr; */
+}
+
+.volunteer h2{
+  grid-column: 2 / 4;
+  padding-top: 4%;
+
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+   /* grid-column: 2 /3; */
+}
+
+.volunteer img{
+  grid-row: 2 /4;
+  grid-column: 1 / 2; 
+  place-self: center center;
+
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+
+}
+
+.volunteerText{
+  grid-column: 2 / 4; 
+  grid-row: 2 / 3;
+  align-self: start;
+
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+  
+  /* grid-column: 2 / 3; 
+  grid-row: 2 / 3;
+  align-self: start; */
+
+
+}
+
+.volunteerTextA{
+  grid-column: 2 / 4; 
+  grid-row: 3/ 4;
+  align-self: start;
+  justify-self: start;
+
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+
+  /* grid-column: 2 / 3; 
+  grid-row: 3/ 4;
+  align-self: start;
+  justify-self: start; */
+
+
+}
+
+.volunteerTextB{
+  grid-column: 3 / 4; 
+  grid-row: 3 / 4;
+  justify-self: end;
+
+  /* *--media query for smaller screens / 900px to 500px (not iphone 10 small yet)--* */
+  
+  /* grid-column: 2 / 3; 
+  grid-row: 3 / 4;
+  justify-self: end; */
+}
+
+
+
+
+
+/* **-----This Next Section is className .footer this includes .footerContent, .footerContactList, .contactLinks-------** */
+/* **--------------whole footer area ( section className .footer )------------** */
+
+.footer {
+  display: grid;
+  grid-template-columns:  1fr 2fr 2fr 1fr;
+  grid-gap: 1.5em;
+}
+
+/* **--------------div footer area ( section className .footerContent )------------** */
+
+.footerContent {
+  grid-column: 2 /4;
+}
+
+.footerContent h2{
+  padding-top: 2%;
+ 
+}
+
+/* **--------------ul in footer area ( section className .footerContactList )------------** */
+
+.footerContactList {
+
+}
+
+/* **--------------li in footer area ( section className .footerContactLinks )------------** */
+
+.footerContactLinks {
+  
+}
+
+
+/* **--------------MEDIA QUERIES------------** */
+
+@supports (grid-area: auto) {
+  @media screen and (max-width: 1060px) {
+    .hero {
+      grid-row: 1 / 2;
+    }
+    .resumeTitle {
+      grid-row: 2 / 3;
+    }
+
+    .resumeSubtitle {
+      grid-row: 3 / 4;
+      padding-bottom: 15%;
+    }
+
+  }
+
+}
+
+
+ @supports (grid-area: auto) {
+
+  @media screen and (max-width: 815px) {
+
+
+
+    .headingSummary {
+      padding-top: 4%;
+    }
+
+    .resumeWrapper {
+      background-color: #F8F9FA;
+      display: grid;
+      grid-template-columns:  1fr 4fr 1fr;
+    }
+
+    .summary {
+      /* border-top: 5px solid red; */
+      /* border: 5px solid red; */
+      display: grid;
+      grid-template-columns:  .2fr 2fr 2fr .2fr;
+      grid-row-gap: 1.5em;
+      grid-column-gap: 0;
+    }
+
+    .profilePic {
+      grid-column: 1 / 5;
+      grid-row: 2 /3;
+      place-self: center center;
+    }
+
+
+    .pdfLogo {
+      grid-column: 1 / 5;
+      grid-row: 5 / 6;
+      place-self: center center;
+      
+    }
+    .projectWrap {
+
+      /* background-color:  red; */
+      display: grid;
+      grid-template-columns: 1fr 2fr 2fr 1fr;
+      grid-template-rows: 100px 200px;
+      
+    }
+
+    .projectWrap h2 {
+      grid-column: 2/4;
+      padding-top: 4% ;
+
+    }
+    
+    .projectWrap p {
+      grid-column: 2/4;
+      grid-row: 2 / 3;
+      place-self: center center;
+      font-size: 25px;
+      font-weight: 200;
+      padding-bottom: 40px;
+    }
+
+
+
+    .educationDetails {
+      display: grid;
+      grid-template-columns: .25fr 2fr 2fr .25fr;
+      grid-template-rows: 75px 350px 310px 310px 310px;
+      grid-row-gap: 1.5em;
+    }
+    
+    .educationDetails h2{
+      grid-column: 1 / 5;
+      place-self:  end center;
+      padding-top: 2%; 
+    }
+    
+    .educationLogos {
+      /* background-color: red; */
+      display: grid;
+      grid-template-columns: .25fr 2fr 2fr .25fr;
+      grid-template-rows: 130px 50px 50px 150px;
+      grid-column: 2 / 4;
+      border: 1px solid #CCC5BB; 
+      padding-top: 15px;
+      background-color: white;
+      opacity: .8; 
+    }
+    
+    .educationLogos img{
+      grid-column: 2 / 4;
+      grid-row: 1 / 2;
+      place-self: center center
+     }
+    
+    .educationLogos h3{
+      /* color: rosybrown; */
+      grid-column: 1 / 5;
+      grid-row: 2 / 3;
+      place-self: center center;
+      font-size: smaller;
+    }
+    
+    .educationLogos p{
+      grid-column: 2 / 4;
+      font-size: smaller;
+      place-self: start center;
+    }
+    .harvardExContent {
+      margin-bottom: 6%;
+    }
+
+
+  }
+}
+
+
+
+
+@supports (grid-area: auto) {
+
+  @media screen and (min-width: 815px) {
+
+    .contentWrap {
+      display: grid;
+      grid-template-columns: 1fr 2fr 2fr 1fr;
+    }
+    
+    h2 {
+      grid-column: 1 /5;
+     
+    
+    }
+    
+    .contentWrap p {
+      grid-column: 2 / 4;
+    
+    }
+    .references{
+      display: grid;
+      grid-template-columns: 2fr;
+      grid-column: 1 / 2;
+      place-self: center center;
+
+    
+     }
+
+  }
+}
+
+
+@supports (grid-area: auto) {
+
+  @media screen and (max-width: 600px) {
+
+  .volunteer {
+    display: grid;
+    grid-template-rows: 75px 130px 50px 40px;
+    grid-template-columns:  1fr 2fr 2fr 1fr;
+    grid-column-gap: 1.5em;
+    /* background-color: blueviolet; */
+  }
+
+  .volunteer img {
+    grid-row: 2 / 3 ;
+    grid-column: 2 / 4;
+    place-self: center;
+    padding-top: 7%;
+  }
+
+
+  .volunteerTextA,.volunteerTextB {
+    /* color:red; */
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    place-self: center;
+    text-align: center;
+  }
+
+  .volunteerTextA {
+    place-self: start center;
+  }
+
+  .volunteerTextB {
+    grid-row: 5 /6;
+    grid-column:2/ 4;
+    place-self: center;
+    padding-bottom: 4%;
+
+  }
+
+  .volunteerText {
+    grid-column: 2 / 4;
+    grid-row: 3/4;
+    font-size: 16px;
+    place-self: center;
+    /* color: red; */
+  }
+
+ }
+}
